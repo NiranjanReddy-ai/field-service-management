@@ -71,6 +71,7 @@ jobs:
       - name: Initialize Capacitor Android
         run: |
           npx cap add android
+          npx cap sync android
 
       - name: Build APK
         run: |
