@@ -4,7 +4,6 @@ import {
     MapPin,
     Calendar,
     TrendingUp,
-    ChevronRight,
     Trash2,
     Plus,
     X

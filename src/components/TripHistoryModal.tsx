@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, MapPin, Calendar, Clock } from 'lucide-react';
+import { X, MapPin, Calendar } from 'lucide-react';
 import './TripHistoryModal.css';
 
 interface Trip {

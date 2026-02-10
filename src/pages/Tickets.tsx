@@ -1,5 +1,5 @@
-import React, { useEffect, useState, useRef } from 'react';
-import { FileText, MapPin, User, CheckCircle, Clock, AlertCircle, Upload, X, Plus, Download } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
+import { FileText, MapPin, Upload, X, Plus, Download } from 'lucide-react';
 import readXlsxFile from 'read-excel-file';
 import * as XLSX from 'xlsx';
 
@@ -32,7 +32,6 @@ export const Tickets = () => {
     const [isSubmitting, setIsSubmitting] = useState(false);
 
     // Bulk Upload State
-    const fileInputRef = useRef<HTMLInputElement>(null);
     const [bulkFile, setBulkFile] = useState<File | null>(null);
     const [bulkStatus, setBulkStatus] = useState('');
 

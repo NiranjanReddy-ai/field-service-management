@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { MapPin, Calendar, Clock, ChevronRight, Navigation } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext';
 import { useTechnicians } from '../../context/TechnicianContext';
@@ -97,7 +97,7 @@ export const TechHome = () => {
                 // Refresh tickets
                 fetchTickets();
                 // Also refresh stats as completed count might change
-                fetch(`http://localhost:3001/api/technicians/${user.empId}/stats`)
+                fetch(`http://localhost:3001/api/technicians/${user?.empId}/stats`)
                     .then(r => r.json())
                     .then(d => setStats(d));
             }

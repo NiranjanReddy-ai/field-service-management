@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { TechnicianStats } from '../components/TechnicianStats';
 import { Users } from 'lucide-react';
 

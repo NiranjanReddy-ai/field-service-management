@@ -1,8 +1,8 @@
-import React from 'react';
+
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { useTechnicians } from '../context/TechnicianContext';
 import 'leaflet/dist/leaflet.css';
-import { MapPin, User, Navigation } from 'lucide-react';
+
 import L from 'leaflet';
 
 // Fix Leaflet/React-Leaflet icon issues in Webpack/Vite
