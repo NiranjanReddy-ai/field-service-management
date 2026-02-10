@@ -1,0 +1,3 @@
+@echo off
+echo Starting MySQL Server (Portable Mode)...
+"C:\Program Files\MySQL\MySQL Server 8.4\bin\mysqld.exe" --datadir="C:\Users\sivar\.gemini\antigravity\scratch\mysql-data" --console

@@ -1,0 +1,6 @@
+{
+    "appId": "com.example.app",
+    "appName": "field-service-management",
+    "webDir": "dist",
+    "bundledWebRuntime": false
+}
